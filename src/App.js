@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
+import Resume from './components/Resume'
 
 
 
@@ -20,8 +20,8 @@ class App extends Component {
               <Nav />
               <Switch>
                 <Route path='/' exact component={Home} />
-                { <Route path='/Resume' component={Resume} /> }
-                { <Route path='/Contact' component={Contact} /> }
+                <Route path='/Resume' component={Resume} /> 
+                <Route path='/Contact' component={Contact} /> 
               </Switch>
             </div>
           </Router>
