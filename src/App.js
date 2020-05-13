@@ -1,33 +1,40 @@
-import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React, { Component } from 'react';
-
-// Components 
-import Nav from './components/Nav';
-import Home from './components/Home';
-import Contact from './components/Contact';
-import Resume from './components/Resume'
+import './App.css';
+import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import Main from './components/Main';
+import { Link } from 'react-router-dom';
 
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <>
-          <Router>
-            <div>
-              <Nav />
-              <Switch>
-                <Route path='/' exact component={Home} />
-                <Route path='/Resume' component={Resume} /> 
-                <Route path='/Contact' component={Contact} /> 
-              </Switch>
-            </div>
-          </Router>
-          {/* <Footer /> */}
-        </>
-      </div>
+      
+<div className="demo-big-content">
+    <Layout>
+        <Header title="My Portfolio" scroll>
+            <Navigation>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/AboutMe">About Me</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/Contact">Contact</Link>
+            </Navigation>
+        </Header>
+        <Drawer title="My Portfolio">
+            <Navigation>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/AboutMe">About Me</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/Contact">Contact</Link>
+            </Navigation>
+        </Drawer>
+
+        <Content>
+           <Main/>
+        </Content>
+    </Layout>
+</div>
+     
     )
   }
 }   
