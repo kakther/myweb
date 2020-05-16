@@ -16,11 +16,13 @@ class Landing extends Component {
                     /> 
 
                     <div className="banner-text"> 
-                       <h1>Full Stack Web Developer</h1> 
+                       <h2>Test Engineer/Full Stack Web Developer</h2> 
 
                        <hr/>
 
-                       <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | SQL</p>
+                       <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | SQL <br />
+                          HP QTP/UFT | HP QC/ALM | Jira | Zephyr | Jaws | TFS | SQL
+                       </p>
 
                        <div className="soical-links">
 
