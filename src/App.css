@@ -62,6 +62,13 @@ height: 90% ;
     padding-right: 5rem;;
 }
 
+/* Resume page */
+.resume-right-col{
+    background: #27221F;
+    color: white;
+    padding: 2em;
+}
+
 .avatar-img {
     height: 250px;
     padding-top: 5em;
