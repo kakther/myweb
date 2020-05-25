@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import profile_pic from './assets/profile.jpg';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -12,39 +11,10 @@ class Resume extends Component {
         return(
             <div>
                 <Grid>
-                    <Cell className="resume-left-col" col={4}>
-                        <div style={{textAlign: 'center'}}>
-                            <img src={profile_pic} alt="Logo"
-                           style={{height: '200px'}}/>
-                        </div>
-
-                        <h2 style={{paddingTop: '2em'}}>Kausar Akther</h2>
-                        <h3 style={{color: 'gray'}}>Programmer</h3>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <p>
-                        A path is either relative or absolute. An absolute path always contains the root 
-                        element and the complete directory list required to locate the file. ... A relative 
-                        path needs to be combined with another path in order to access a file. For example, joe/foo is a relative path.
-                        </p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <h5>State:</h5>
-                        <p>New York</p>
-                        <h5>Phone:</h5>
-                        <p>(347) 221-556</p>
-                        <h5>Email:</h5>
-                        <p>kauakther@gmail.com</p>
-                        <h5>Web:</h5>
-                        <p>kausarwebsite.com</p>
-                    </Cell>
-                    <Cell className="resume-right-col" col={8}>
+                    <Cell className="resume-right-col" col={12}>
                         <h2>Education</h2>
                         <Education 
-                            startYear ={2012}
-                            endYear = {2015}
                             schoolName="Brooklyn College"
-                            schoolDescription="Brooklyn College, part of the City University of New York, 
-                            is a public college in Brooklyn, New York, with about 15,000 undergraduate and 2,800 graduate students on a 35-acre campus.
-                             New York City's first public coeducational liberal arts college, it has been nicknamed, more recently"
                             />
                             <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -53,13 +23,19 @@ class Resume extends Component {
                                 startYear ={2011}
                                 endYear = {2013}
                                 jobName = "Quality Test Analyst"
-                                jobDescription= "A path is either relative or absolute. An absolute path always contains the root element and the complete directory list required to locate the file. ... A relative path needs to be combined with another path in order to access a file. For example, joe/foo is a relative path."
+                                jobDescription= 
+                                "•	Reviewed various project artifacts for Environmental Information and Public Access System (EIPAS) for various departments – DEP (Department of Environment), MDAR, DCR
+                                •	Participated in Requirements Review & Grooming Meetings throughout Software Development Life Cycle (SDLC)
+                                •	Worked closely with Software Developers, BA and SME to design Manual & Automated Tests for Functional & Regression Testing for DEP, MDAR and DCR projects using HP ALM and HP UFT
+                                •	Organized and ran KT sessions with new team members to share AUT knowledge
+                                •	Participated in Agile/Scrum software development process by developing test cases for Sprints"
                             />
                             <Experience 
                                   startYear ={2013}
                                   endYear = {2015}
                                   jobName = "QA Engineer"
-                                  jobDescription= "A path is either relative or absolute. An absolute path always contains the root element and the complete directory list required to locate the file. A relative path needs to be combined with another path in order to access a file. For example, joe/foo is a relative path."
+                                  jobDescription= 
+                                  "ute path always contains the root element and the complete directory list required to locate the file. A relative path needs to be combined with another path in order to access a file. For example, joe/foo is a relative path."
                             />
                               
                             <Experience

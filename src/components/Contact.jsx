@@ -11,9 +11,7 @@ class Contact extends Component {
                        <h2>Kausar Akther</h2>
                         <img src={profile_pic} alt="Logo"
                            style={{height: '260px'}}/>
-                        <p style={{width:'75%', margin:'auto', paddingTop: 'iem'}}>Manual Testing, UAT & Automation Testing experienced QA/Software Tester with expertise of software 
-                        testing tools, techniques, SDLC and various development methodologies. I am now available for a challenging and rewarding position in the testing industry 
-                        to add value to projects as a Manual/Automation/QA/UAT Tester/Analyst.</p>
+
                    </Cell>
 
                    <Cell col={6}>
