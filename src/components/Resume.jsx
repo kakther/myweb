@@ -12,6 +12,12 @@ class Resume extends Component {
             <div>
                 <Grid>
                     <Cell className="resume-right-col" col={12}>
+                        <div className="header">
+                            <h2>Kausar Akther</h2>
+                            <h5>SOFTWARE TEST ENGINEER/TEST ANALYST/MANUAL/AUTOMATION TESTER</h5>
+                            <h4>AKTHERKAUR@GMAIL.COM</h4>
+                        </div>
+                        
                         <h2>Education</h2>
                         <Education 
                             schoolName="Brooklyn College"
@@ -23,26 +29,25 @@ class Resume extends Component {
                                 startYear ={2011}
                                 endYear = {2013}
                                 jobName = "Quality Test Analyst"
-                                jobDescription= 
-                                "•	Reviewed various project artifacts for Environmental Information and Public Access System (EIPAS) for various departments – DEP (Department of Environment), MDAR, DCR
-                                •	Participated in Requirements Review & Grooming Meetings throughout Software Development Life Cycle (SDLC)
-                                •	Worked closely with Software Developers, BA and SME to design Manual & Automated Tests for Functional & Regression Testing for DEP, MDAR and DCR projects using HP ALM and HP UFT
-                                •	Organized and ran KT sessions with new team members to share AUT knowledge
-                                •	Participated in Agile/Scrum software development process by developing test cases for Sprints"
+                                jobDescription = 
+                                "Reviewed various project artifacts for Environmental Information and Public Access System (EIPAS) for various departments – DEP (Department of Environment), MDAR, DCR"
+                              
+                                
                             />
                             <Experience 
                                   startYear ={2013}
                                   endYear = {2015}
                                   jobName = "QA Engineer"
                                   jobDescription= 
-                                  "ute path always contains the root element and the complete directory list required to locate the file. A relative path needs to be combined with another path in order to access a file. For example, joe/foo is a relative path."
-                            />
+                                    "Extensively used HP Quality Center (QC)/ALM to write Test Cases and Design Steps in Test Plan module and logging defects in Defects module for My Horizon HSA, HRA, FSA and My Health Manager"
+    />
                               
                             <Experience
                                 startYear ={2015}
                                 endYear = {2017}
                                 jobName = "QA"
-                                jobDescription= "A path is either relative or absolute. An absolute path always contains the root element and the complete directory list required to locate the file. ... A relative path needs to be combined with another path in order to access a file. For example, joe/foo is a relative path."
+                                jobDescription= 
+                                "Used HP Quality Center (QC)/ALM intensively for Requirements management, planning, scheduling, running tests, tracking and managing defects"
                             />
                             <hr style={{borderTop: '3px solid #e22947'}} />
 

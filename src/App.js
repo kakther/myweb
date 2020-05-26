@@ -3,6 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
+// import Logo2 from './assets/logo2.jpg';
 
 
 
@@ -12,7 +13,7 @@ class App extends Component {
       
         <div className="demo-big-content">
         <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"> </Link>} scroll>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About Me</Link>
@@ -20,7 +21,7 @@ class App extends Component {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
+            <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Kausar Akther</Link>}>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About Me</Link>
