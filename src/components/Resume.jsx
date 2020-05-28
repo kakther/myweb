@@ -21,13 +21,13 @@ class Resume extends Component {
                         <h2>Education</h2>
                         <Education 
                             schoolName="Brooklyn College"
-                            />
+                        />
                             <hr style={{borderTop: '3px solid #e22947'}} />
 
                             <h2>Experience</h2>
                             <Experience 
-                                startYear ={2011}
-                                endYear = {2013}
+                                startYear ={2015}
+                                endYear = {2019}
                                 jobName = "Quality Test Analyst"
                                 jobDescription = 
                                 "Reviewed various project artifacts for Environmental Information and Public Access System (EIPAS) for various departments – DEP (Department of Environment), MDAR, DCR"
@@ -43,8 +43,8 @@ class Resume extends Component {
     />
                               
                             <Experience
-                                startYear ={2015}
-                                endYear = {2017}
+                                startYear ={2011}
+                                endYear = {2013}
                                 jobName = "QA"
                                 jobDescription= 
                                 "Used HP Quality Center (QC)/ALM intensively for Requirements management, planning, scheduling, running tests, tracking and managing defects"

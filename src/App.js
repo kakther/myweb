@@ -3,6 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
+import profile_pic from './components/assets/profile.jpg';
 // import Logo2 from './assets/logo2.jpg';
 
 
@@ -13,7 +14,7 @@ class App extends Component {
       
         <div className="demo-big-content">
         <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"> </Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/" ><img src={profile_pic} alt="Logo" style={{height: '60px', width: '50px'}}/>Kausar Akther</Link>} scroll>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About Me</Link>

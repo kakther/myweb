@@ -28,7 +28,7 @@ class Landing extends Component {
                        <div className="soical-links">
 
                            {/* LinkedIN*/}
-                           <a href="hhttps://www.linkedin.com/feed/" rel="noopener noreferrer" target="_blank">
+                           <a href="https://www.linkedin.com/feed/" rel="noopener noreferrer" target="_blank">
                                <i className="fa fa-linkedin" aria-hidden="true" />
                            </a>
 

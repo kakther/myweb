@@ -48,7 +48,7 @@ class Projects extends Component {
             </Card>
 
 
-            {/* // =======================Project #3============================  */}
+            {/* // =======================Project #3============================ 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color:'#fff', height: '176px', background:
              'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQEkB4gODANjdhxk2MPEt7-6FU_uJECVtm9ZAxM7azz-ZiCfgA&usqp=CAU) center / cover' }}>React Project #3</CardTitle>
@@ -63,7 +63,7 @@ class Projects extends Component {
              <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" /> 
              </CardMenu>
-        </Card>
+        </Card> */}
                 
             </div>
             
@@ -85,8 +85,8 @@ class Projects extends Component {
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab>React</Tab>
-                    <Tab>Javascript</Tab>
-                    <Tab>Ruby</Tab>
+                    {/* <Tab>Javascript</Tab>
+                    <Tab>Ruby</Tab> */}
                 </Tabs>
 
 
