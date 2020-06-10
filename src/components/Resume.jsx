@@ -15,7 +15,7 @@ class Resume extends Component {
                         <div className="header">
                             <h2>Kausar Akther</h2>
                             <h5>SOFTWARE TEST ENGINEER/TEST ANALYST/MANUAL/AUTOMATION TESTER</h5>
-                            <h4>AKTHERKAUR@GMAIL.COM</h4>
+                            <h4>KAUSAR.AKTHER@GMAIL.COM</h4>
                         </div>
                         
                         <h2>Education</h2>
@@ -40,7 +40,7 @@ class Resume extends Component {
                                   jobName = "QA Engineer"
                                   jobDescription= 
                                     "Extensively used HP Quality Center (QC)/ALM to write Test Cases and Design Steps in Test Plan module and logging defects in Defects module for My Horizon HSA, HRA, FSA and My Health Manager"
-    />
+                            />
                               
                             <Experience
                                 startYear ={2011}
@@ -50,12 +50,6 @@ class Resume extends Component {
                                 "Used HP Quality Center (QC)/ALM intensively for Requirements management, planning, scheduling, running tests, tracking and managing defects"
                             />
                             <hr style={{borderTop: '3px solid #e22947'}} />
-
-                            <h2>Skills</h2>
-                            <Skills 
-                                skill="javascript"
-                                Progress={100}
-                            />
 
                             <Skills 
                                 skill="HP QC/ALM"

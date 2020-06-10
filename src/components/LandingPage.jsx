@@ -21,7 +21,7 @@ class Landing extends Component {
 
                        <hr/>
 
-                       <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | SQL <br />
+                       <p>HTML/CSS | Bootstrap | React | SQL <br />
                           HP QTP/UFT | HP QC/ALM | Jira | Zephyr | Jaws | TFS | SQL
                        </p>
 
@@ -32,12 +32,9 @@ class Landing extends Component {
                                <i className="fa fa-linkedin" aria-hidden="true" />
                            </a>
 
-                             {/* Github*/}
-                           <a href="https://github.com/" rel="noopener noreferrer" target="_blank">
-                               <i className="fa fa-github" aria-hidden="true" />
-                           </a>
+            
                        </div>
-                       
+                    
                     </div>
                     </Cell>
                 </Grid>
